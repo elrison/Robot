@@ -1,0 +1,45 @@
+Curso de Robot Framework das aulas de ROBOTEXPRESS do professor Papito.
+
+Como usar
+Baixar as versões do Robot
+baixar o python ultima versão
+*https://www.python.org/downloads/
+*https://pypi.org/project/robotframework/
+*https://code.visualstudio.com/download
+
+Fazer uma conta no Mongo Db online
+*https://cloud.mongodb.com/
+
+Guia do Robot
+https://robotframework.org/
+Ir em Resources e no caso baixar a Guia do BROWSER
+
+Installation instructions
+Only Python 3.8 or newer is supported.
+
+*Install node.js e.g. from https://nodejs.org/en/download/
+*Update pip pip install -U pip to ensure latest version is used
+*Install robotframework-browser from the commandline: pip install robotframework-browser
+*Install the node dependencies: run rfbrowser init in your shell
+
+if rfbrowser is not found, try python -m Browser.entry init
+Please note that by default Chromium, Firefox and WebKit browser are installed, even those would be
+ already installed in the system. The installation size depends on the operating system, but usually
+  is +700Mb. It is possible to skip browser binaries installation with rfbrowser init --skip-browsers 
+  command, but then user is responsible for browser binary installation.
+
+Para rodar um comando no robot necessario se for um arquivo
+Ex.
+robot teste.robot
+
+Se for pra guardar os resultados em uma pasta
+robot -d ./logs teste.robot
+
+Se for pra guardar em um teste especifico em uma pasta
+robot -d ./logs /pasta/teste.robot
+
+Somente um Test Case
+
+robot -d ./logs -i teste teste.robot
+
+

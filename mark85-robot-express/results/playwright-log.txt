@@ -1,0 +1,35 @@
+{"level":30,"time":"2023-07-10T04:53:51.051Z","pid":12588,"hostname":"elrisonsilva","msg":"Listening on 59238"}
+{"level":30,"time":"2023-07-10T04:53:51.268Z","pid":12588,"hostname":"elrisonsilva","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-07-10T04:53:51.269Z","pid":12588,"hostname":"elrisonsilva","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-07-10T04:53:51.272Z","pid":12588,"hostname":"elrisonsilva","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-07-10T04:53:51.272Z","pid":12588,"hostname":"elrisonsilva","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\Elris\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:9426:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\Elris\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:9972:59)
+    at PlaywrightServer.setTimeout (C:\Users\Elris\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:10218:69)
+    at C:\Users\Elris\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:821:17
+    at Http2ServerCallStream.safeDeserializeMessage (C:\Users\Elris\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:395:13)
+    at ServerHttp2Stream.onEnd (C:\Users\Elris\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:382:22)
+    at ServerHttp2Stream.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+=============================================================
+{"level":30,"time":"2023-07-10T04:53:51.282Z","pid":12588,"hostname":"elrisonsilva","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-07-10T04:53:51.282Z","pid":12588,"hostname":"elrisonsilva","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\Elris\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:9426:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\Elris\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:9972:59)
+    at PlaywrightServer.setTimeout (C:\Users\Elris\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:10218:69)
+    at C:\Users\Elris\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:821:17
+    at Http2ServerCallStream.safeDeserializeMessage (C:\Users\Elris\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:395:13)
+    at ServerHttp2Stream.onEnd (C:\Users\Elris\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:382:22)
+    at ServerHttp2Stream.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+=============================================================
+{"level":30,"time":"2023-07-10T04:53:51.287Z","pid":12588,"hostname":"elrisonsilva","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-07-10T04:53:51.287Z","pid":12588,"hostname":"elrisonsilva","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-07-10T04:53:51.306Z","pid":12588,"hostname":"elrisonsilva","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-07-10T04:53:51.307Z","pid":12588,"hostname":"elrisonsilva","msg":"End of node method closeAllBrowsers"}

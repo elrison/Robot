@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.10.8 on win32)" generated="20230710 00:53:50.294" rpa="false" schemaversion="3">
+<suite id="s1" name="Create" source="C:\QAx\mark85-robot-express\tests\tasks\create.robot">
+<test id="s1-t1" name="Deve poder cadastrar uma nova tarefa" line="8">
+<kw name="Get fixture" library="base">
+<var>${data}</var>
+<arg>tasks</arg>
+<arg>create</arg>
+<kw name="Load Json From File" library="JSONLibrary">
+<var>${data}</var>
+<arg>${EXECDIR}/resources/fixtures/tasks.json</arg>
+<arg>encoding=utf-8</arg>
+<doc>Load JSON from file.</doc>
+<msg timestamp="20230710 00:53:51.274" level="INFO">${data} = {'create': {'user': [{'name': 'Steve Jobs', 'email': 'jobs@apple.com', 'password': 'pwd123'}], 'tasks': [{'name': 'Cria uma nova versão do Ipod', 'tasks': ['ios', 'music', 'ipod']}]}}</msg>
+<status status="PASS" starttime="20230710 00:53:51.273" endtime="20230710 00:53:51.274"/>
+</kw>
+<msg timestamp="20230710 00:53:51.274" level="INFO">${data} = {'create': {'user': [{'name': 'Steve Jobs', 'email': 'jobs@apple.com', 'password': 'pwd123'}], 'tasks': [{'name': 'Cria uma nova versão do Ipod', 'tasks': ['ios', 'music', 'ipod']}]}} [create] [scenar...</msg>
+<status status="PASS" starttime="20230710 00:53:51.273" endtime="20230710 00:53:51.274"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${data} [create][user]</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230710 00:53:51.275" level="INFO">{'create': {'user': [{'name': 'Steve Jobs', 'email': 'jobs@apple.com', 'password': 'pwd123'}], 'tasks': [{'name': 'Cria uma nova versão do Ipod', 'tasks': ['ios', 'music', 'ipod']}]}} [create] [scenario] [create][user]</msg>
+<status status="PASS" starttime="20230710 00:53:51.275" endtime="20230710 00:53:51.275"/>
+</kw>
+<status status="PASS" starttime="20230710 00:53:51.270" endtime="20230710 00:53:51.276"/>
+</test>
+<doc>Cenarios de cadstro de taerfas</doc>
+<status status="PASS" starttime="20230710 00:53:50.295" endtime="20230710 00:53:51.284"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Create">Create</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
