@@ -1,0 +1,57 @@
+{"level":30,"time":"2023-06-07T04:37:46.180Z","pid":2320,"hostname":"elrisonsilva","msg":"Listening on 59199"}
+{"level":30,"time":"2023-06-07T04:37:46.416Z","pid":2320,"hostname":"elrisonsilva","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-07T04:37:46.416Z","pid":2320,"hostname":"elrisonsilva","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-07T04:37:46.419Z","pid":2320,"hostname":"elrisonsilva","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-07T04:37:46.419Z","pid":2320,"hostname":"elrisonsilva","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-07T04:37:46.422Z","pid":2320,"hostname":"elrisonsilva","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2023-06-07T04:37:46.674Z","pid":2320,"hostname":"elrisonsilva","msg":"End of node method newBrowser"}
+{"level":30,"time":"2023-06-07T04:37:46.679Z","pid":2320,"hostname":"elrisonsilva","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-06-07T04:37:46.680Z","pid":2320,"hostname":"elrisonsilva","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-06-07T04:37:46.695Z","pid":2320,"hostname":"elrisonsilva","msg":"Changed active context"}
+{"level":30,"time":"2023-06-07T04:37:46.808Z","pid":2320,"hostname":"elrisonsilva","msg":"Video path: undefined"}
+{"level":30,"time":"2023-06-07T04:37:46.808Z","pid":2320,"hostname":"elrisonsilva","msg":"Changed active page"}
+{"level":30,"time":"2023-06-07T04:37:49.172Z","pid":2320,"hostname":"elrisonsilva","msg":"Error of node method  newPage"}
+================= Original suppressed error =================
+page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/
+=========================== logs ===========================
+navigating to "http://localhost:3000/", waiting until "load"
+============================================================
+    at newPage (C:\Users\Elris\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:9663:18)
+    at async PlaywrightServer.newPage (C:\Users\Elris\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:9987:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2023-06-07T04:37:49.179Z","pid":2320,"hostname":"elrisonsilva","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\Elris\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:8275:11)
+    at takeScreenshot (C:\Users\Elris\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:8312:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\Elris\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:9987:34)
+    at C:\Users\Elris\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:821:17
+    at Http2ServerCallStream.safeDeserializeMessage (C:\Users\Elris\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:395:13)
+    at ServerHttp2Stream.onEnd (C:\Users\Elris\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:382:22)
+    at ServerHttp2Stream.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+=============================================================
+{"level":30,"time":"2023-06-07T04:37:49.180Z","pid":2320,"hostname":"elrisonsilva","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2023-06-07T04:37:49.195Z","pid":2320,"hostname":"elrisonsilva","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-07T04:37:49.195Z","pid":2320,"hostname":"elrisonsilva","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-07T04:37:49.198Z","pid":2320,"hostname":"elrisonsilva","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-07T04:37:49.198Z","pid":2320,"hostname":"elrisonsilva","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-07T04:37:49.201Z","pid":2320,"hostname":"elrisonsilva","msg":"Changed active context"}
+{"level":30,"time":"2023-06-07T04:37:49.202Z","pid":2320,"hostname":"elrisonsilva","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-07T04:37:49.202Z","pid":2320,"hostname":"elrisonsilva","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-07T04:37:49.206Z","pid":2320,"hostname":"elrisonsilva","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-06-07T04:37:49.207Z","pid":2320,"hostname":"elrisonsilva","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-06-07T04:37:49.209Z","pid":2320,"hostname":"elrisonsilva","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-06-07T04:37:49.209Z","pid":2320,"hostname":"elrisonsilva","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-06-07T04:37:49.213Z","pid":2320,"hostname":"elrisonsilva","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-07T04:37:49.213Z","pid":2320,"hostname":"elrisonsilva","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-07T04:37:49.215Z","pid":2320,"hostname":"elrisonsilva","msg":"Changed active context"}
+{"level":30,"time":"2023-06-07T04:37:49.216Z","pid":2320,"hostname":"elrisonsilva","msg":"Start of node method closeContext"}
+{"level":30,"time":"2023-06-07T04:37:49.247Z","pid":2320,"hostname":"elrisonsilva","msg":"End of node method closeContext"}
+{"level":30,"time":"2023-06-07T04:37:49.257Z","pid":2320,"hostname":"elrisonsilva","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-07T04:37:49.257Z","pid":2320,"hostname":"elrisonsilva","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-07T04:37:49.279Z","pid":2320,"hostname":"elrisonsilva","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-06-07T04:37:49.423Z","pid":2320,"hostname":"elrisonsilva","msg":"End of node method closeAllBrowsers"}

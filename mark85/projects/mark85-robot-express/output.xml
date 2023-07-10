@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.10.8 on win32)" generated="20230607 00:37:45.780" rpa="false" schemaversion="3">
+<suite id="s1" name="Online" source="C:\Users\Elris\Documents\QAx\projects\mark85-robot-express\online.robot">
+<test id="s1-t1" name="Webappq deve estar online" line="8">
+<kw name="New Browser" library="Browser">
+<arg>browser=chromium</arg>
+<arg>headless=${False}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<msg timestamp="20230607 00:37:46.433" level="INFO">{"browser": "chromium", "headless": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "deprecated_pos_args": [], "tracesDir": "C:\\Users\\Elris\\Documents\\QAx\\projects\\mark85-robot-express\\browser\\traces\\9ab7bf3f-d1fd-4331-903a-a5d8e5c429dd"}</msg>
+<msg timestamp="20230607 00:37:46.688" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"deprecated_pos_args":[],"tracesDir":"C:\\Users\\Elris\\Documents\\QAx\\projects\\mark85-robot-express\\browser\\traces\\9ab7bf3f-d1fd-4331-903a-a5d8e5c429dd"}</msg>
+<status status="PASS" starttime="20230607 00:37:46.432" endtime="20230607 00:37:46.688"/>
+</kw>
+<kw name="New Page" library="Browser">
+<arg>http://localhost:3000</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<msg timestamp="20230607 00:37:49.194" level="WARN">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg timestamp="20230607 00:37:49.195" level="INFO">See also file:///C:/Users/Elris/Documents/QAx/projects/mark85-robot-express/playwright-log.txt for additional details.</msg>
+<msg timestamp="20230607 00:37:49.195" level="FAIL">Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/
+=========================== logs ===========================
+navigating to "http://localhost:3000/", waiting until "load"
+============================================================</msg>
+<status status="FAIL" starttime="20230607 00:37:46.689" endtime="20230607 00:37:49.197"/>
+</kw>
+<kw name="Get Title" library="Browser">
+<arg>equal</arg>
+<arg>Mark85 by QAx</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the title of the current page.</doc>
+<status status="NOT RUN" starttime="20230607 00:37:49.197" endtime="20230607 00:37:49.198"/>
+</kw>
+<status status="FAIL" starttime="20230607 00:37:46.415" endtime="20230607 00:37:49.198">Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/
+=========================== logs ===========================
+navigating to "http://localhost:3000/", waiting until "load"
+============================================================</status>
+</test>
+<doc>Online</doc>
+<status status="FAIL" starttime="20230607 00:37:45.780" endtime="20230607 00:37:49.264"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Online">Online</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230607 00:37:49.194" level="WARN">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+</errors>
+</robot>
